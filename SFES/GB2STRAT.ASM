@@ -181,7 +181,7 @@ bossFC2_strat
 .npturn	s_set_alvar			W,x,al_worldy,#space_viewCY-500
 .nturn	; Fixes changing view during turnaround softlock
 	s_jmp_objinfront	x,y,.okv
-	s_or_var		B,pshipflags3,psf3_noviewchange
+	s_or_var		B,pshipflags3,#psf3_noviewchange
 	s_bra	.blah
 .okv
 	s_and_var		B,pshipflags3,#~psf3_noviewchange
@@ -265,7 +265,7 @@ bossFC3_strat
 	s_set_alvar			W,x,al_worldy,#space_viewcy-500
 .nturn	; Fixes changing view during turnaround softlock
 	s_jmp_objinfront	x,y,.okv
-	s_or_var		B,pshipflags3,psf3_noviewchange
+	s_or_var		B,pshipflags3,#psf3_noviewchange
 	s_bra	.blah
 .okv
 	s_and_var		B,pshipflags3,#~psf3_noviewchange

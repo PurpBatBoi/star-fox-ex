@@ -24,6 +24,7 @@ Fixes:
 -Restored warp out BGM in map 2 stage 1
 -Fixed zoom for several custom ships
 -Fixed unused arrow sfx interfering with music
+-Fixed typo in Great Commander I softlock fix, should correctly work now
 
 Changes:
 -Separated Super FX programming credits into their own section in the credits sequence
@@ -40,6 +41,7 @@ Changes:
 -Shield meter turns blue when you pick up a shield power up in 1 and 2 player mode (mimicking vanilla behavior)
 -First two ship fly-ins in Space Armada removed due to bugs that could not be fully resolved
 -Removed some Super FX code related to computing the distance required for LOD models as those are not used in this game
+-Added stars and mist to training map and 6-2
 
 Additions:
 -Game converted to Super FX 3!!

@@ -236,7 +236,7 @@ bg_training_1	init_bg	mode2		;training
 	set_bg
 	pstrat	playertraining,a,abc
 ;	set_zdepthtable	normal
-	info	von,hon,zon,nodots	;what I see from the ground
+	info	von,hon,zon,space	;what I see from the ground
 	hofmode	rotate
 ;	shadowheight 0
 	bg2Yscroll	-128
